@@ -15,7 +15,7 @@ st.set_page_config(
 st.markdown("""
 <style>
 .stApp{background:#f3f6f9;color:#172b3a}
-.block-container{max-width:1480px;padding-top:1rem;padding-bottom:2.5rem}
+.block-container{max-width:1480px;padding-top:2.5rem;padding-bottom:2.5rem}
 .hero{background:linear-gradient(135deg,#17324d 0%,#245f78 58%,#2f7f8d 100%);border-radius:18px;padding:24px 30px 22px;margin-bottom:14px;box-shadow:0 8px 24px rgba(23,50,77,.12)}
 .hero-title{color:#fff;font-size:30px;line-height:1.15;font-weight:800;margin:0;letter-spacing:-.4px}
 .hero-sub{color:rgba(255,255,255,.86);font-size:13px;margin-top:7px}
