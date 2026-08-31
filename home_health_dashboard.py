@@ -144,6 +144,23 @@ def make_fig(fig, height=350, title=None):
     tickfont=dict(color="#172b3a", size=10),)
     fig.update_yaxes(gridcolor="#edf1f5", zeroline=False,title_font=dict(color="#172b3a", size=11),
     tickfont=dict(color="#172b3a", size=10),)
+        # Force dark axis titles and tick labels on every chart
+    fig.update_layout(
+        xaxis_title_font=dict(color="#172b3a", size=11),
+        yaxis_title_font=dict(color="#172b3a", size=11),
+    )
+
+    fig.update_xaxes(
+        title_font=dict(color="#172b3a", size=11),
+        tickfont=dict(color="#172b3a", size=10),
+    )
+
+    fig.update_yaxes(
+        title_font=dict(color="#172b3a", size=11),
+        tickfont=dict(color="#172b3a", size=10),
+    )
+
+    return fig
     return fig
 
 RISK_ORDER = ["Low", "Medium", "High"]
