@@ -125,7 +125,7 @@ def make_fig(fig, height=350, title=None):
     fig.update_layout(
         title=title,
         height=height,
-        margin=dict(l=10, r=20, t=72, b=12),
+        margin=dict(l=10, r=20, t=52, b=12),
         paper_bgcolor="white",
         plot_bgcolor="white",
         font=dict(family="Arial, sans-serif", color="#304154", size=11),
