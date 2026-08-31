@@ -161,7 +161,6 @@ def make_fig(fig, height=350, title=None):
     )
 
     return fig
-    return fig
 
 RISK_ORDER = ["Low", "Medium", "High"]
 RISK_COLORS = {"Low": "#4D8F73", "Medium": "#D39A32", "High": "#C84B4B"}
