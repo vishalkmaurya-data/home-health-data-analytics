@@ -14,7 +14,7 @@
 
 ### 🌐 Interactive Streamlit Dashboard
 
-👉 **[Open Live Dashboard](PASTE_YOUR_STREAMLIT_APP_URL_HERE)**
+👉 **[Open Live Dashboard](https://home-health-data-analytics-cteciwuhzos7gjb8dkhqev.streamlit.app/)**
 
 > Explore provider performance, financial metrics, geographic patterns, operational KPIs, and provider risk interactively.
 
