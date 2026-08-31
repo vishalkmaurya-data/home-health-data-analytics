@@ -137,7 +137,7 @@ def make_fig(fig, height=350, title=None):
             y=1.01,
             xanchor="right",
             x=1,
-            font=dict(size=10),
+            font=dict(size=10,color="#172b3a"),title_font=dict(size=10, color="#172b3a"),
         ),
     )
     fig.update_xaxes(gridcolor="#edf1f5", zeroline=False,title_font=dict(color="#172b3a", size=11),
