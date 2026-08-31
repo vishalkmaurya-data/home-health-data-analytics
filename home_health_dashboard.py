@@ -130,7 +130,7 @@ def make_fig(fig, height=350, title=None):
         plot_bgcolor="white",
         font=dict(family="Arial, sans-serif", color="#304154", size=11),
         title_font=dict(size=15, color="#17324d"),
-        hoverlabel=dict(bgcolor="white", font_size=11),
+        hoverlabel=dict(bgcolor="white", bordercolor="#d9e1e8",font=dict(color="#172b3a", size=11),),
         legend=dict(
             orientation="h",
             yanchor="bottom",
